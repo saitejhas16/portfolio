@@ -17,7 +17,9 @@
   }
 
   .section__pic-container img {
-    width: 150px;
+    width: 100px; /* Reduced image size */
+    max-width: 50%; /* Ensures the image scales down responsively */
+    height: auto; /* Maintains aspect ratio */
   }
 
   .title {
