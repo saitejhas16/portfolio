@@ -17,7 +17,7 @@
   }
 
   .section__pic-container img {
-    width: 140px; /* Moderate size */
+    width: 200px; /* Moderate size */
     max-width: 80%; /* Scales down based on screen size */
     height: auto; /* Maintains aspect ratio */
   }
