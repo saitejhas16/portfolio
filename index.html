@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L.N.SAI TEJHAS Portfolio</title>
+  <link rel="stylesheet" href="styleS.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <!-- Desktop Navigation -->
+  <nav id="desktop-nav">
+    <div class="logo" id="home">L.N. Sai Tejhas</div>
+    <ul class="nav-links">
+      <li><a href="#resume">Resume/CV</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#my-projects">My Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hamburger Navigation -->
+  <nav id="hamburger-nav">
+    <div class="logo">L.N. Sai Tejhas</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#resume" onclick="toggleMenu()">Resume/CV</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#my-projects" onclick="toggleMenu()">My Projects</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="saitejhas.jpg" alt="L.N. Sai Tejhas profile picture">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">L.N. Sai Tejhas</h1>
+      <p class="section__text__p2">Aspiring Data analyst ,UI/UX Designer</p>
+      <p class="section__text__p2">Python programming enthusiast,Prompt engineering learner.</p>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/lnsaitejhas/" target="_blank" class="social-link">LinkedIn</a>
+        <a href="https://github.com/saitejhas16" target="_blank" class="social-link">GitHub</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="skills" class="py-5">
+      <h2 class="text-container">Skills</h2>
+      <div class="skills-container">
+        <!-- First Skill: Python -->
+        <div class="skills-item">
+          <i class="fab fa-python skill-icon"></i>
+          <p>Python</p>
+        </div>
+        <!-- Second Skill: C Programming -->
+        <div class="skills-item">
+          <i class="fas fa-code skill-icon"></i>
+          <p>C Programming</p>
+        </div>
+        <!-- Third Skill: Power BI -->
+        <div class="skills-item">
+          <i class="fas fa-chart-bar skill-icon"></i>
+          <p>Power BI</p>
+        </div>
+        <!-- Fourth Skill: Data Analysis -->
+        <div class="skills-item">
+          <i class="fas fa-database skill-icon"></i>
+          <p>Data Analysis</p>
+        </div>
+        <!-- Fifth Skill: Figma -->
+        <div class="skills-item">
+          <i class="fab fa-figma skill-icon"></i>
+          <p>Figma</p>
+        </div>
+        <!-- Sixth Skill: SQL -->
+        <div class="skills-item">
+          <i class="fas fa-database skill-icon"></i>
+          <p>SQL</p>
+        </div>
+        <!-- Seventh Skill: Prompt Engineering -->
+        <div class="skills-item">
+          <i class="fas fa-robot skill-icon"></i>
+          <p>Prompt Engineering</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+
+<!-- My Projects Section -->
+<section id="my-projects">
+  <h1 class="title">My Projects</h1>
+  <div class="projects-container">
+
+      <!-- Project 3: Coffee Sales Data Analysis -->
+      <div class="details-container color-container">
+        <div class="article-container">
+            <img src="daicon.jpg" alt="Coffee Sales Data Analysis" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">Coffee Sales Data Analysis</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saitejhas16/coffee_sales'">Github Repo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saitejhas16/coffee_sales/blob/main/coffee.ipynb'">Jupyter Notebook</button>
+        </div>
+    </div>
+
+
+      <!-- Project 1: Ajio Website Redesign -->
+      <div class="details-container color-container">
+          <div class="article-container">
+              <img src="ajio.png" alt="Ajio Website Redesign" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Ajio Website Redesign</h2>
+          <div class="btn-container">
+              <button class="btn btn-color-2 project-btn1" onclick="location.href='https://www.linkedin.com/posts/lnsaitejhas_uiuxdesign-figma-wireframing-activity-7218131548334641152-lxyB?utm_source=share&utm_medium=member_desktop'">Linkedin Post</button>
+          </div>
+      </div>
+
+      <!-- Project 2: IPL Scorecard Interface -->
+      <div class="details-container color-container">
+          <div class="article-container">
+              <img src="ipl.png" alt="IPL Scorecard Interface" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">IPL Scorecard Interface</h2>
+          <div class="btn-container">
+              <button class="btn btn-color-2 project-btn1" onclick="location.href='https://www.linkedin.com/posts/lnsaitejhas_cricket-scoreboard-interface-activity-7195773196904640512-s7G9?utm_source=share&utm_medium=member_desktop'">Linkedin Post</button>
+          </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="daicon.jpg" alt="MI Performance in IPL 2020" class="project-img">
+        </div>
+        <h2 class="project-title">MI Performance in IPL 2020</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saitejhas16/MI-Performance-IPL-2020'">Github Repo</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saitejhas16/MI-Performance-IPL-2020/blob/main/MI.ipynb'">Jupyter Notebook</button>
+      </div>
+    </div>
+</div>
+      
+<!-- View All Projects Button (Centered in the middle of the page) -->
+<div class="center-btn">
+  <a href="#resume" class="btn btn-secondary small-btn">View All Projects in my Resume</a>
+</div>
+
+</section>
+
+
+
+  <section id="experience" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Experience</h2>
+        <div class="row justify-content-center">
+            <!-- Internship Experience -->
+            <div class="col-lg-6 col-md-6 col-sm-8 text-center mb-4">
+                <div class="experience-box">
+                    <h4>Data Analytics Intern</h4>
+                    <p>OASIS INFOBYTE | August 2024 - September 2024</p>
+                    <p>Successfully completed a 1-month AICTE OIB-SIP internship in Data Analytics with outstanding performance.</p>
+                    <a href="L.N.Sai Tejhas Certificate.pdf" target="_blank" class="btn btn-primary btn-lg" download>
+                        View Internship Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+<!-- Education Section -->
+<section id="education" class="py-5">
+  <div class="container">
+      <h2 class="title">Education</h2>
+      <div class="education-details">
+          <div class="education-item">
+              <h4>NBKR Institute of Science and Technology</h4>
+              <p>B.Tech in Computer Science and Engineering | UGC</p>
+              <p>Currently Pursuing  (3rd Year)</p>
+              <p>2022 – 2026</p>
+          </div>
+          <div class="education-item">
+              <h4>Space Central School</h4>
+              <p>Class XII | CBSE</p>
+              <p>April 2021 – April 2022</p>
+              <p>– Achieved 81.8% in Class XII.</p>
+          </div>
+          <div class="education-item">
+              <h4>Padmavathi Vidyalaya</h4>
+              <p>Class X | CBSE</p>
+              <p>April 2019 – April 2020</p>
+              <p>– Achieved 80.4% in Class X.</p>
+          </div>
+      </div>
+  </div>
+</section>
+<section id="resume" class="py-5">
+  <div class="container">
+      <h2 class="text-center mb-4">Resume/CV</h2>
+      <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-8 text-center">
+              <a href="LN SAI TEHAS'S Resume.pdf" target="_blank" class="btn btn-primary btn-lg" download>
+                  View & Download Resume/CV
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="mail.jpeg" alt="Email icon" class="icon contact-icon email-icon">
+        <p><a href="mailto:saitejhas49@gmail.com">saitejhas49@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+        <p><a href="https://www.linkedin.com/in/lnsaitejhas/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="phone.png" alt="Phone icon" class="icon contact-icon">
+        <p><a href="tel:+91 9652582816">+91 9652582816</a></p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#resume">Resume/CV</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#my-projects">My Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <p>Copyright &#169; 2024 L.N. Sai Tejhas. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
