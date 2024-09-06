@@ -17,8 +17,8 @@
   }
 
   .section__pic-container img {
-    width: 100px; /* Reduced image size */
-    max-width: 50%; /* Ensures the image scales down responsively */
+    width: 120px; /* Moderate size */
+    max-width: 70%; /* Scales down based on screen size */
     height: auto; /* Maintains aspect ratio */
   }
 
@@ -28,8 +28,8 @@
 
   .section__text__p2 {
     font-size: 1.2rem;
-    line-height: 1.5; /* Increase line-height for better readability */
-    padding: 0 1rem; /* Add padding to give more space around the text */
+    line-height: 1.5;
+    padding: 0 1rem;
   }
 
   .btn-container {
@@ -44,7 +44,7 @@
   #projects,
   #contact {
     height: auto;
-    padding: 2rem 1.5rem; /* Increase padding for more spacing */
+    padding: 2rem 1.5rem;
   }
 
   .text-container,
@@ -67,8 +67,8 @@
 
   /* Specific styles for About text to avoid congestion */
   #about p {
-    font-size: 1rem; /* Adjust the font size for smaller screens */
-    line-height: 1.7; /* Enhance line spacing */
-    margin-bottom: 1.5rem; /* Add more margin between paragraphs */
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
   }
 }
