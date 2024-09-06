@@ -1,63 +1,72 @@
 @media (max-width: 768px) {
-    #desktop-nav {
-      display: none;
-    }
-  
-    #hamburger-nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 1rem;
-      height: 17vh;
-    }
-  
-    #profile {
-      flex-direction: column;
-      text-align: left;
-    }
-  
-    .section__pic-container img {
-      width: 200px;
-    }
-  
-    .title {
-      font-size: 3rem;
-    }
-  
-    .section__text__p2 {
-      font-size: 1.2rem;
-    }
-  
-    .btn-container {
-      justify-content: center;
-    }
-  
-    #socials-container {
-      justify-content: center;
-    }
-  
-    #about,
-    #projects,
-    #contact {
-      height: auto;
-      padding: 2rem 1rem;
-    }
-  
-    .text-container,
-    .projects-container,
-    .contact-info-upper-container {
-      flex-direction: column;
-    }
-  
-    .projects-container {
-      gap: 1rem;
-    }
-  
-    .details-container {
-      width: 100%;
-    }
-  
-    .project-img {
-      width: 100%;
-    }
+  #desktop-nav {
+    display: none;
   }
+
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 17vh;
+  }
+
+  #profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section__pic-container img {
+    width: 200px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.2rem;
+    line-height: 1.5; /* Increase line-height for better readability */
+    padding: 0 1rem; /* Add padding to give more space around the text */
+  }
+
+  .btn-container {
+    justify-content: center;
+  }
+
+  #socials-container {
+    justify-content: center;
+  }
+
+  #about,
+  #projects,
+  #contact {
+    height: auto;
+    padding: 2rem 1.5rem; /* Increase padding for more spacing */
+  }
+
+  .text-container,
+  .projects-container,
+  .contact-info-upper-container {
+    flex-direction: column;
+  }
+
+  .projects-container {
+    gap: 1rem;
+  }
+
+  .details-container {
+    width: 100%;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  /* Specific styles for About text to avoid congestion */
+  #about p {
+    font-size: 1rem; /* Adjust the font size for smaller screens */
+    line-height: 1.7; /* Enhance line spacing */
+    margin-bottom: 1.5rem; /* Add more margin between paragraphs */
+  }
+}
