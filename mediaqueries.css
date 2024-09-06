@@ -18,7 +18,7 @@
 
   .section__pic-container img {
     width: 100px; /* Reduced image size */
-    max-width: 40%; /* Ensures the image scales down responsively */
+    max-width: 50%; /* Ensures the image scales down responsively */
     height: auto; /* Maintains aspect ratio */
   }
 
